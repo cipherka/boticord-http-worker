@@ -1,0 +1,19 @@
+{
+  "name": "boticord-http-worker",
+  "description": "BotiCord.top HTTP Worker",
+  "repository": "https://github.com/vlfz/boticord-http-worker",
+  "website": "https://boticord.top",
+  "keywords": ["boticord"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "env": {
+    "TOKEN": {
+      "description": "[Required] Token",
+      "value": "",
+      "required": true
+    }
+  }
+}
